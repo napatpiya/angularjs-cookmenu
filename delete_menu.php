@@ -4,9 +4,9 @@ $postdata = file_get_contents("php://input");
 $request = json_decode($postdata);
 $id = $request->id;
 
-$servername = "localhost";
-$username = "root";
-$password = "root"; //Your User Password
+$servername = "cookmenudb.ca6saodjmxzy.us-east-1.rds.amazonaws.com";
+$username = "admin";
+$password = "zaq12wsx"; //Your User Password
 $dbname = "cookmenu_db"; //Your Database Name
 
 

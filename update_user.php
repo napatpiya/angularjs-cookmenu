@@ -7,9 +7,9 @@ $lname = $request->lname;
 $address = $request->address;
 $phone = $request->phone;
 
-$servername = "localhost";
-$username = "root";
-$password = "root"; //Your User Password
+$servername = "cookmenudb.ca6saodjmxzy.us-east-1.rds.amazonaws.com";
+$username = "admin";
+$password = "zaq12wsx"; //Your User Password
 $dbname = "cookmenu_db"; //Your Database Name
 
 
